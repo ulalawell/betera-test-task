@@ -1,0 +1,17 @@
+port: "8080"
+
+db:
+  username: "user"
+  host: "db"
+  port: "5432"
+  dbname: "db"
+  sslmode: "disable"
+  password: "password"
+
+
+apiNasa:
+  key: "vFMacZ9YYGomF6Fw8qvgigCSv8gaY8BA0rws2sdq"
+  url: "https://api.nasa.gov/planetary/apod"
+  periodicitySeconds: 86400
+
+
